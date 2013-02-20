@@ -30,7 +30,7 @@
           $.ajax(
             dataType : 'JSON'
             method : 'GET'
-            url : $self.attr('data-remote-url')
+            url : $self.attr('data-url')
             data :
               value : val
           ).done((data)->
