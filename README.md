@@ -22,7 +22,7 @@ Usage
 3. get the **data** from server,your **data** must look like a **Array** `[ [key1,value1], [key2,value2]... ]`
 
 ###Html render
-######You should render select tags with attributes:
+######You should structure select tags with attributes:
 - data-url: get the data from remote
 - data-next-cog: the object that trigger event from *this*,syntax is jQuery selector like `'#cog'`
 - data-trigger-blank: when you need to trigger event by blank-selected,set to 'true'
